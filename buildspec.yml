@@ -15,5 +15,5 @@ phases:
       - echo "build completed"
 
 artifact:
-      files:
-        - /var/www/html/index.html  
+  files:
+        - 'index.html'  
