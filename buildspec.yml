@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo "build completed"
-
-artifact:
+      
+artifacts:
   files:
-        - index.html 
+        -/var/www/html/index.html
