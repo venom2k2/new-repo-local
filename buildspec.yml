@@ -10,6 +10,7 @@ phases:
     commands:
       - echo "build started on  `date`"
       - cp index.html /var/www/html/
+      - cp style.css /var/www/html/
   post_build:
     commands:
       - echo "build completed"
