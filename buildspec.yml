@@ -17,6 +17,5 @@ phases:
       
 artifacts:
   files:
-        - '**/*'
-  name: artifact.zip
+        - /var/www/html/index.html
         
